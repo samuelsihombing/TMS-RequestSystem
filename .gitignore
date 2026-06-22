@@ -1,0 +1,83 @@
+# yii console commands
+/yii
+/yii_test
+/yii_test.bat
+
+# phpstorm project files
+.idea
+
+# visual studio code project files
+.vscode
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+# node
+/node_modules
+/package.json
+/package-lock.json
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+# ignore generated files
+/frontend/web/index.php
+/frontend/web/index-test.php
+/frontend/web/robots.txt
+/backend/web/index.php
+/backend/web/index-test.php
+/backend/web/robots.txt
+
+# Composer dependencies (bisa di-generate ulang)
+/vendor/
+
+# File config lokal (berisi password database — JANGAN di-upload)
+/common/config/main-local.php
+/backend/config/main-local.php
+/frontend/config/main-local.php
+/console/config/main-local.php
+
+# Runtime files
+/runtime/
+/backend/runtime/
+/frontend/runtime/
+/console/runtime/
+
+# Asset yang di-generate otomatis
+/backend/web/assets/
+/frontend/web/assets/
+
+# Environment file
+/.env
+
+# File testing sementara
+create_admin.php
+create_staff.php
+hash.php
+
+# OS files
+.DS_Store
+Thumbs.db
